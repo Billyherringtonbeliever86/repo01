@@ -4,8 +4,8 @@ Tagline: Mikels portfolio.
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/Billyherringtonbeliever86
-      icon: github
+      icon: fab fa-github
     - title: Mystery link.
       url: https://www.youtube.com/watch?v=iOztnsBPrAA
-      icon: leaf
+      icon: fas fa-satellite
 ---

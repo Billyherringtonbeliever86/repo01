@@ -1,0 +1,45 @@
+
+body {
+    background-color: $background-color;
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html, body {
+    height: 100%;
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+.header, .footer {
+    flex: 0 0 auto;
+}
+
+/* main */
+.main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+p {
+    margin-bottom: 1.4rem;
+    font-size: 1.2em;
+}
+

@@ -1,0 +1,36 @@
+p, .header {
+    font-family: $main-font;
+    color: $dark-2;
+}
+
+h1,
+h2,
+h3 {
+    font-family: $header-font;
+    color: $dark-2;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.4;
+    color: #444;
+}
+
+p, td, th, li, dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}
+
+.footer p {
+    color: #242323;
+}
+
+img {
+    max-width: 100%;
+}
