@@ -1,0 +1,68 @@
+.landingpage {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem 2rem;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+
+}
+
+.box {
+    min-height: 150px;
+    border-radius: 10%;
+    border: 2px solid $dark-1;
+    padding: 1rem;
+}
+
+.box h1{
+    margin: 0 auto;
+    border-bottom: 2px solid $dark-1;
+}
+
+.single-technology {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.tech-menu {
+    width: 30%;
+
+}
+
+.tech-content {
+    
+    width: 100%;
+}
+
+.box.css{
+    grid-column: span 2;
+}
+
+.java {
+    grid-column: span 2;
+    //grid-column-start: 2;
+    //grid-column-end: 3;
+}
+
+.php {
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+.py {
+    grid-row-start: 4;
+    grid-column: span 3;
+}
+
+.git {
+    grid-row-start: 5;
+}
+
+.sq {
+    grid-row-start: 5;
+    grid-column: span 2;
+}
