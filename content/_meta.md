@@ -8,4 +8,10 @@ Social:
     - title: Mystery link.
       url: https://www.youtube.com/watch?v=iOztnsBPrAA
       icon: fas fa-satellite
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---

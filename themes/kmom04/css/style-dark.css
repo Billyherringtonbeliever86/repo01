@@ -4,6 +4,7 @@
  */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Playfair+Display&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet');
+@import url("https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap");
 .fa,
 .fas,
 .far,
@@ -6425,20 +6426,20 @@ template {
 
 p, .header {
   font-family: "Inter", sans-serif;
-  color: #45474B;
+  color: #bbb7b7;
 }
 
 h1,
 h2,
 h3 {
   font-family: "Lato", sans-serif;
-  color: #45474B;
+  color: #bbb7b7;
 }
 
 body {
   font-family: sans-serif;
   line-height: 1.4;
-  color: #444;
+  color: #333;
 }
 
 p, td, th, li, dd {
@@ -6453,7 +6454,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer p {
-  color: #242323;
+  color: #333;
+}
+
+.header a {
+  color: #bbb7b7;
 }
 
 img {
@@ -6461,7 +6466,7 @@ img {
 }
 
 body {
-  background-color: #F5F7F8;
+  background-color: #333;
   display: flex;
   flex-direction: column;
 }
@@ -6498,6 +6503,7 @@ html, body {
 p {
   margin-bottom: 1.4rem;
   font-size: 1.2em;
+  color: #bbb7b7;
 }
 
 .header {
@@ -6526,9 +6532,9 @@ p {
   }
 }
 .title * {
-  color: #45474B;
+  color: #495E57;
   background-color: #F4CE14;
-  border-bottom: solid #45474B 2px;
+  border-bottom: solid #C2AB36 5px;
 }
 
 .title p {

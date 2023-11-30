@@ -1,0 +1,61 @@
+.header {
+    background-color: $filler;
+}
+
+.header, .site-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title, .logo {
+    padding: 1em 1em 1em 0;
+    width: 40%;
+}
+
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+    
+    .title {
+        min-width: 50%;
+    }
+    
+    .logo {
+        max-width: 30%;
+    }
+}
+
+.title * {
+    color: $filler;
+    background-color: $contrast;
+    border-bottom: solid $contrast2 5px;
+}
+
+.title p {
+    font-style: italic;
+}
+
+.nav a {
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.nav li:hover {
+    background-color: $contrast;
+}
+
+
+/*
+.nav li:first-child {
+    background-color: #1ded1d;
+}
+
+.nav li:last-child {
+    background-color: rgb(255, 0, 0);
+}
+
+.nav li:hover {
+    background-color: #ff00ff;
+}
+*/

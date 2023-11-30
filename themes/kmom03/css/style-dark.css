@@ -4,6 +4,7 @@
  */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Playfair+Display&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet');
+@import url("https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap");
 .fa,
 .fas,
 .far,
@@ -6425,14 +6426,14 @@ template {
 
 p, .header {
   font-family: "Inter", sans-serif;
-  color: #45474B;
+  color: #333;
 }
 
 h1,
 h2,
 h3 {
   font-family: "Lato", sans-serif;
-  color: #45474B;
+  color: #333;
 }
 
 body {
@@ -6461,7 +6462,7 @@ img {
 }
 
 body {
-  background-color: #F5F7F8;
+  background-color: #333;
   display: flex;
   flex-direction: column;
 }
@@ -6526,9 +6527,9 @@ p {
   }
 }
 .title * {
-  color: #45474B;
+  color: #333;
   background-color: #F4CE14;
-  border-bottom: solid #45474B 2px;
+  border-bottom: solid #333 2px;
 }
 
 .title p {

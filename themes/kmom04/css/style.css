@@ -6425,20 +6425,20 @@ template {
 
 p, .header {
   font-family: "Inter", sans-serif;
-  color: #45474B;
+  color: #5C573E;
 }
 
 h1,
 h2,
 h3 {
   font-family: "Lato", sans-serif;
-  color: #45474B;
+  color: #5C573E;
 }
 
 body {
   font-family: sans-serif;
   line-height: 1.4;
-  color: #444;
+  color: #F5F7F8;
 }
 
 p, td, th, li, dd {
@@ -6453,7 +6453,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer p {
-  color: #242323;
+  color: #F5F7F8;
+}
+
+.header a {
+  color: #5C573E;
 }
 
 img {
@@ -6498,10 +6502,11 @@ html, body {
 p {
   margin-bottom: 1.4rem;
   font-size: 1.2em;
+  color: #5C573E;
 }
 
 .header {
-  background-color: #495E57;
+  background-color: #33322D;
 }
 
 .header, .site-header {
@@ -6526,9 +6531,9 @@ p {
   }
 }
 .title * {
-  color: #45474B;
+  color: #33322D;
   background-color: #F4CE14;
-  border-bottom: solid #45474B 2px;
+  border-bottom: solid #C2AB36 5px;
 }
 
 .title p {
@@ -6566,7 +6571,7 @@ footer a {
 }
 
 .footer {
-  background-color: #495E57;
+  background-color: #33322D;
   font-weight: bold;
   margin-top: 20px;
 }
@@ -6650,13 +6655,13 @@ pre code {
 .box {
   min-height: 150px;
   border-radius: 10%;
-  border: 2px solid #495E57;
+  border: 2px solid #33322D;
   padding: 1rem;
 }
 
 .box h1 {
   margin: 0 auto;
-  border-bottom: 2px solid #495E57;
+  border-bottom: 2px solid #33322D;
 }
 
 .single-technology {
@@ -6718,7 +6723,7 @@ pre code {
 }
 
 .nav a, .nav-toggle {
-  color: #333;
+  color: #F5F7F8;
 }
 
 .nav-toggle {
