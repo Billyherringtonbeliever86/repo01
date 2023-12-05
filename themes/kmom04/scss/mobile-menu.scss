@@ -69,5 +69,17 @@
         width: 350px;
     }
 
+    .gallerygrid {
+        
+        display: grid;
+        
+        grid-template-columns: 100%; 
+        
+    }
+
+    .galleryimg {
+        grid-column-start: 1;
+
+    }
 
 }

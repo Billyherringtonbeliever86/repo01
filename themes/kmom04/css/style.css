@@ -6549,19 +6549,6 @@ p {
   background-color: #F4CE14;
 }
 
-/*
-.nav li:first-child {
-    background-color: #1ded1d;
-}
-
-.nav li:last-child {
-    background-color: rgb(255, 0, 0);
-}
-
-.nav li:hover {
-    background-color: #ff00ff;
-}
-*/
 footer a {
   color: #000;
 }
@@ -6706,6 +6693,36 @@ pre code {
   grid-column: span 2;
 }
 
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.gallery picture {
+  width: 45%;
+}
+
+.gallery img,
+.gallery source {
+  width: 100%;
+}
+
+.gallerygrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.galleryimg {
+  width: 100%;
+}
+
+.gallerygrid h1 {
+  grid-column: span 3;
+}
+
 .slide {
   overflow-y: hidden !important;
   transition: height 0.5s ease-in !important;
@@ -6765,5 +6782,8 @@ pre code {
   }
   .box {
     width: 350px;
+  }
+  .gallerygrid {
+    grid-template-columns: 1fr;
   }
 }
