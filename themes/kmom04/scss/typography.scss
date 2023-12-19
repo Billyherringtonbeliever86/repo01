@@ -7,7 +7,7 @@ h1,
 h2,
 h3 {
     font-family: $header-font;
-    color: $font-color;
+    color: $font-color2;
 }
 
 body {
@@ -28,11 +28,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer p {
-    color: $background-color;
+    color: $font-color;
 }
 
 .header a {
-    color: $font-color2;
+    color: $font-title;
+}
+
+.title h1,
+.title p {
+    color: $font-title;
 }
 
 

@@ -4,43 +4,73 @@
 
 .header, .site-header {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
 }
 
 .title, .logo {
     padding: 1em 1em 1em 0;
-    width: 40%;
+    width: 180px;
+    border-radius: 10px;
+    
 }
 
-@media (max-width: 767px) {
+.logo {
+    margin-left: 45px;
+}
+
+.title {
+    margin-left: 40px;
+    width: 340px;
+}
+
+@media (max-width: 867px) {
     .title, .logo {
         padding: 1em 1em 1em 0;
     }
     
     .title {
-        min-width: 50%;
+        width: 150px;;
     }
     
     .logo {
-        max-width: 30%;
+        max-width: 150px;
     }
 }
 
 .title * {
-    color: $filler;
+    color: $font-title;
     background-color: $contrast;
     border-bottom: solid $contrast2 5px;
+    box-shadow: 0 4px 8px rgba(152, 152, 152, 0.738);
+    border-radius: 10px;
+    
 }
 
 .title p {
     font-style: italic;
 }
 
+.nav {
+    max-width: 600px;
+    margin-left: 200px;
+    
+}
+
+#nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: flex-start;
+}
+
 .nav a {
     font-size: 1.5rem;
     text-decoration: none;
+    
 }
 
 .nav li:hover {
     background-color: $contrast;
+    border-radius: 10px;
 }
